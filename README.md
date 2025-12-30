@@ -1,4 +1,4 @@
-# Lumina - Intelligent Dev Blog 🌌
+# Lumina (루미나) - Intelligent Dev Blog 🌌
 
 [English](#english) | [한국어](#korean)
 
@@ -6,63 +6,8 @@
 
 <br>
 
-<a id="english"></a>
-## English
-
-**Lumina** is a smart developer log application powered by AI. It features a sophisticated "Liquid Glass" design and automatically summarizes and tags your markdown posts using a Python backend.
-
-### ✨ Features
-- **✍️ Markdown Support**: Write detailed tech logs with rich formatting.
-- **🧠 AI Analysis**: Automatically generates summaries and extracts tags from your content.
-- **🎨 Liquid Glass Design**: Modern UI with mesh gradients and glassmorphism effects.
-- **🌓 Dark Mode**: Fully responsive light and dark themes.
-- **🚀 Monorepo**: Integrated Frontend and Backend workflow.
-
-### 🛠️ Tech Stack
-
-**Frontend**
-- **Framework**: [Next.js 14+](https://nextjs.org/) (App Router)
-- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (with `@tailwindcss/typography`)
-- **Language**: TypeScript
-- **HTTP Client**: `fetch` (Server), `axios` (Client)
-
-**Backend**
-- **Framework**: [FastAPI](https://fastapi.tiangolo.com/)
-- **Database**: SQLite with [SQLModel](https://sqlmodel.tiangolo.com/) (ORM)
-- **AI Logic**: Custom Python implementation (Standard Library `collections`, `re`)
-
-### 🚀 How to Run
-
-**Prerequisites**: Node.js v18+, Python v3.8+
-
-1. **Clone & Navigate**
-    ```bash
-    cd lumina
-    ```
-
-2. **Run the Application**
-    ```bash
-    chmod +x start.sh
-    ./start.sh
-    ```
-    > The script automatically creates a Python virtual environment, installs dependencies, and starts both Backend (Port 8000) and Frontend (Port 3000).
-
-3. **Access**
-    - **Frontend**: [http://localhost:3000](http://localhost:3000)
-    - **Backend API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
-
-**Tests**: To seed test data:
-```bash
-cd backend
-../backend/venv/bin/python seed_posts.py
-```
-
----
-
-<br>
-
-<a id="korean"></a>
-## 한국어 (Korean)
+<a name="korean"></a>
+## 🇰🇷 한국어 소개
 
 **Lumina**는 AI 기반의 스마트 개발자 로그 애플리케이션입니다. 세련된 'Liquid Glass' 디자인을 갖추고 있으며, Python 백엔드를 통해 마크다운 게시글을 자동으로 요약하고 태깅합니다.
 
@@ -113,3 +58,56 @@ cd backend
 ```
 
 ---
+
+<br>
+
+<a name="english"></a>
+## 🇺🇸 English Description
+
+**Lumina** is a smart developer log application powered by AI. It features a sophisticated "Liquid Glass" design and automatically summarizes and tags your markdown posts using a Python backend.
+
+### ✨ Features
+- **✍️ Markdown Support**: Write detailed tech logs with rich formatting.
+- **🧠 AI Analysis**: Automatically generates summaries and extracts tags from your content.
+- **🎨 Liquid Glass Design**: Modern UI with mesh gradients and glassmorphism effects.
+- **🌓 Dark Mode**: Fully responsive light and dark themes.
+- **🚀 Monorepo**: Integrated Frontend and Backend workflow.
+
+### 🛠️ Tech Stack
+
+**Frontend**
+- **Framework**: [Next.js 14+](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) (with `@tailwindcss/typography`)
+- **Language**: TypeScript
+- **HTTP Client**: `fetch` (Server), `axios` (Client)
+
+**Backend**
+- **Framework**: [FastAPI](https://fastapi.tiangolo.com/)
+- **Database**: SQLite with [SQLModel](https://sqlmodel.tiangolo.com/) (ORM)
+- **AI Logic**: Custom Python implementation (Standard Library `collections`, `re`)
+
+### 🚀 How to Run
+
+**Prerequisites**: Node.js v18+, Python v3.8+
+
+1. **Clone & Navigate**
+    ```bash
+    cd lumina
+    ```
+
+2. **Run the Application**
+    ```bash
+    chmod +x start.sh
+    ./start.sh
+    ```
+    > The script automatically creates a Python virtual environment, installs dependencies, and starts both Backend (Port 8000) and Frontend (Port 3000).
+
+3. **Access**
+    - **Frontend**: [http://localhost:3000](http://localhost:3000)
+    - **Backend API Docs**: [http://localhost:8000/docs](http://localhost:8000/docs)
+
+**Tests**: To seed test data:
+```bash
+cd backend
+../backend/venv/bin/python seed_posts.py
+```
